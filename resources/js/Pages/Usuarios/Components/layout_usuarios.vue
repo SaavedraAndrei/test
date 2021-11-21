@@ -1,4 +1,4 @@
-<template>
+\<template>
   <div id="wrapper">
     <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar">
       <!-- Sidebar - Brand -->
@@ -54,11 +54,7 @@
             <inertia-link
               class="collapse-item"
               :href="$route('usuario.asistencia')"
-              v-if="
-                $page.props.user_permissions.permisos.includes(
-                  'USUARIOS/CONFERENCIA ASISTENCIA'
-                )
-              "
+              
               >conferencias
             </inertia-link>
 
@@ -94,11 +90,7 @@
             <inertia-link 
             class="collapse-item" 
             :href="$route('usuario.foros')"
-            v-if="
-                $page.props.user_permissions.permisos.includes(
-                  'USUARIOS/FOROS'
-                )
-              "
+            
               >Foro de conferencia X</inertia-link
             >
 

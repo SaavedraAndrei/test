@@ -23,12 +23,7 @@ class ForosController extends Controller
             return view('welcome', array('congresos' => $congresos));
         }else {
             $band = (new PermisosController)->verificarPermiso($x['usuario_dni'], 'FOROS', 'GESTIÓN ADMINISTRATIVA');
-            if ($band == 1) {
-                $eventos = Evento::select(
-                    'id',
-                    'nombre'
-                )
-                ->get();
+            
                 $preguntas = Foro_pregunta::from('foros_preguntas as fp')
                 ->select(
                     'fp.id',
@@ -64,11 +59,7 @@ class ForosController extends Controller
                     'eventos' =>$eventos,
                     'respuestas' => $respuestas,
                 ]);
-            } else {
-                $mensaje = 'RECHAZADO';
-                return (new IndexController)->home($mensaje);
-                die();
-            }
+            
         } 
     }
     public function foros_usuarios()
@@ -203,9 +194,7 @@ class ForosController extends Controller
             $congresos = Congreso::all();
             return view('welcome', array('congresos' => $congresos));
         }else {
-            $band = (new PermisosController)->verificarPermiso($x['usuario_dni'], 'FOROS', 'USUARIOS');
-            if ($band == 1) {
-                
+           
                 $preguntas = Foro_pregunta::from('foros_preguntas as fr')
                 ->select(
                     'fr.id',
@@ -236,11 +225,7 @@ class ForosController extends Controller
                     'preguntas' => $preguntas,
                     'respuestas' => $respuestas,
                 ]);
-            } else {
-                $mensaje = 'RECHAZADO';
-                return (new IndexController)->home($mensaje);
-                die();
-            }
+          
         } 
     }
 }

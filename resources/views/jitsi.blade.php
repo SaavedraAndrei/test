@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="{{asset('css/normalize.css')}}" />
     <link rel="stylesheet" href="{{asset('css/Estilos.css')}}" />
     <script src='https://8x8.vc/libs/external_api.min.js'></script>
-    {{-- <script src='https://8x8.vc/external_api.js' async></script> --}}
+    <script src='https://8x8.vc/external_api.js' async></script>
     
 
    

@@ -5859,14 +5859,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: {},
   mounted: function mounted() {
@@ -6228,10 +6220,10 @@ __webpack_require__.r(__webpack_exports__);
     this.nombre = this.datos_fecha[0].nombre;
     this.id = this.datos_fecha[0].id;
     self = this;
-    var domain = "8x8.vc";
+    var domain = '8x8.vc';
     var options = {
-      roomName: "vpaas-magic-cookie-7ae1fe3f898449ef82ec67cded0ac6f5/AndreiMeet",
-      parentNode: document.querySelector("#meet"),
+      roomName: 'vpaas-magic-cookie-7ae1fe3f898449ef82ec67cded0ac6f5/TestMeet',
+      parentNode: document.querySelector('#meet'),
       jwt: "eyJraWQiOiJ2cGFhcy1tYWdpYy1jb29raWUtN2FlMWZlM2Y4OTg0NDllZjgyZWM2N2NkZWQwYWM2ZjUvZDBjYTI2IiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJhdWQiOiJqaXRzaSIsImNvbnRleHQiOnsidXNlciI6eyJpZCI6IjBmOGI3NzYwLWMxN2YtNGExMi1iMTM0LWM2YWMzNzE2NzE0NCIsIm5hbWUiOiJBbmRyZWkgU2FhdmVkcmEiLCJhdmF0YXIiOiJodHRwczovL2xpbmsudG8vdXNlci9hdmF0YXIvcGljdHVyZSIsImVtYWlsIjoiNzM0NTUwNzNAY29udGluZW50YWwuZWR1LnBlIiwibW9kZXJhdG9yIjoidHJ1ZSJ9LCJmZWF0dXJlcyI6eyJsaXZlc3RyZWFtaW5nIjoidHJ1ZSIsInJlY29yZGluZyI6InRydWUifX0sImV4cCI6MTY5NjI4NDA1MiwiaXNzIjoiY2hhdCIsIm5iZiI6MTU5NjE5NzY1Miwicm9vbSI6IioiLCJzdWIiOiJ2cGFhcy1tYWdpYy1jb29raWUtN2FlMWZlM2Y4OTg0NDllZjgyZWM2N2NkZWQwYWM2ZjUifQ.tHYgtlk8GfS76ykpSCK-GruyqvG8OCCZ3Jx3uUt4AnOoOqSGg-Gui3epklYrhqbxErmrG3wcXTsmqGhb94CMcj417QuxWiq8vpiGaM1sOf7D_b1oY7TiEW69JNBGbo8RHFY76hGwrVNRm2VuJJblNwobTJvmiv-6AqgUixeMwgaDwysKhb5pF7aR53ioMJQS4dNTrPSnWSQ_6VZnR-shhv5MhHKmz6O_U6SwKLxtfEM9NKeEofX3bHJ0Njuni59hWtRV_fOAwry7SrUItOfptrink6MzAFP4a5TGP2qV6FAMNBoLqXiBefrThvZGmDV5jP8YV8dM7dBPuldBHXq6DOxtdC0Xr6sc32CO5d-u4qM2ByYHmUP6-eiwm7tuVE-I14QJbmL8v0O_kHiFMTghp4Jx0M9c6SbY5Jqn_L-p2NbrE5AbAmft6h2jRfGg2UdUnNNk7EVrOm_wHCW3p9hMoJzzSLTJnhyS39fisKd1Jiq5_IAu_bTnA5BFVRjGTRiTuLHylxTG_N-Da238XBVjwyc4j4Csg3Ftc2LYSiE2ZABB8fncWuZZiscaenusj8XfDAxuFh3RTxA7PaKDEpJ_7hIU0xNj4BNLhpoR-3exAI2v36cEQLNwpVdxBz1sg4zBSlZY0cgC8zvLrtHDGVwSuOQsxv4fPs61ls-bAv8I5Po"
     };
     var api = new JitsiMeetExternalAPI(domain, options);
@@ -7383,7 +7375,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n:root {\r\n  --colorBajo: #ffdef8;\r\n  --colorMedio: #a33378;\r\n  --colorAlto: #921f83;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n:root {\n  --colorBajo: #ffdef8;\n  --colorMedio: #a33378;\n  --colorAlto: #921f83;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -7407,7 +7399,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.card-custom-img {\r\n  background-image: url(/img/asistencia/fondo-validacion.png);\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.card-custom-img {\n  background-image: url(/img/asistencia/fondo-validacion.png);\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -7431,7 +7423,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n:root {\r\n  --colorBajo: #def7ff;\r\n  --colorMedio: #337ba3;\r\n  --colorAlto: #1f5a92;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n:root {\n  --colorBajo: #def7ff;\n  --colorMedio: #337ba3;\n  --colorAlto: #1f5a92;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -7455,7 +7447,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.jitsi-meet {\r\n  width: 100% !important;\r\n  margin: 0 auto;\r\n  text-align: center;\n}\n.container-datetime {\r\n  position: relative;\r\n  background-color: transparent;\r\n  width: 100%;\r\n  height: 8rem;\r\n  margin: 0;\r\n  padding: 0;\r\n  margin-top: 1.5rem;\r\n  font-size: 2rem;\n}\n.widget {\r\n  width: 100%;\r\n  height: auto;\r\n  position: absolute;\r\n  top: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\n}\n.widget p {\r\n  display: inline-block;\r\n  margin: 0px;\n}\n.fecha {\r\n  font-family: arial;\r\n  text-align: center;\r\n  background: transparent;\r\n  color: black;\r\n  width: 100%;\r\n  height: -webkit-fit-content;\r\n  height: -moz-fit-content;\r\n  height: fit-content;\n}\n.reloj {\r\n  font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\r\n  width: 100%;\r\n  font-size: 2.6rem;\r\n  height: -webkit-fit-content;\r\n  height: -moz-fit-content;\r\n  height: fit-content;\r\n  text-align: center;\r\n  background: transparent;\r\n  color: black;\n}\n@media (max-width: 400px) {\n.container-datetime {\r\n    margin-top: 0.5rem;\r\n    font-size: 1rem;\r\n    height: 5rem;\n}\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.jitsi-meet {\n  width: 100% !important;\n  margin: 0 auto;\n  text-align: center;\n}\n.container-datetime {\n  position: relative;\n  background-color: transparent;\n  width: 100%;\n  height: 8rem;\n  margin: 0;\n  padding: 0;\n  margin-top: 1.5rem;\n  font-size: 2rem;\n}\n.widget {\n  width: 100%;\n  height: auto;\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n.widget p {\n  display: inline-block;\n  margin: 0px;\n}\n.fecha {\n  font-family: arial;\n  text-align: center;\n  background: transparent;\n  color: black;\n  width: 100%;\n  height: -webkit-fit-content;\n  height: -moz-fit-content;\n  height: fit-content;\n}\n.reloj {\n  font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\n  width: 100%;\n  font-size: 2.6rem;\n  height: -webkit-fit-content;\n  height: -moz-fit-content;\n  height: fit-content;\n  text-align: center;\n  background: transparent;\n  color: black;\n}\n@media (max-width: 400px) {\n.container-datetime {\n    margin-top: 0.5rem;\n    font-size: 1rem;\n    height: 5rem;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -7479,7 +7471,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.card-custom-img {\r\n  background-image: url(/img/asistencia/fondo-validacion.png);\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.card-custom-img {\n  background-image: url(/img/asistencia/fondo-validacion.png);\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -38285,18 +38277,14 @@ var render = function() {
                 "div",
                 { staticClass: "bg-white py-2 collapse-inner rounded" },
                 [
-                  _vm.$page.props.user_permissions.permisos.includes(
-                    "USUARIOS/CONFERENCIA ASISTENCIA"
-                  )
-                    ? _c(
-                        "inertia-link",
-                        {
-                          staticClass: "collapse-item",
-                          attrs: { href: _vm.$route("usuario.asistencia") }
-                        },
-                        [_vm._v("conferencias\n          ")]
-                      )
-                    : _vm._e(),
+                  _c(
+                    "inertia-link",
+                    {
+                      staticClass: "collapse-item",
+                      attrs: { href: _vm.$route("usuario.asistencia") }
+                    },
+                    [_vm._v("conferencias\n          ")]
+                  ),
                   _vm._v(" "),
                   _c(
                     "inertia-link",
@@ -38328,18 +38316,14 @@ var render = function() {
                 "div",
                 { staticClass: "bg-white py-2 collapse-inner rounded" },
                 [
-                  _vm.$page.props.user_permissions.permisos.includes(
-                    "USUARIOS/FOROS"
-                  )
-                    ? _c(
-                        "inertia-link",
-                        {
-                          staticClass: "collapse-item",
-                          attrs: { href: _vm.$route("usuario.foros") }
-                        },
-                        [_vm._v("Foro de conferencia X")]
-                      )
-                    : _vm._e(),
+                  _c(
+                    "inertia-link",
+                    {
+                      staticClass: "collapse-item",
+                      attrs: { href: _vm.$route("usuario.foros") }
+                    },
+                    [_vm._v("Foro de conferencia X")]
+                  ),
                   _vm._v(" "),
                   _vm.$page.props.user_permissions.permisos.includes(
                     "USUARIOS/FOROS"
