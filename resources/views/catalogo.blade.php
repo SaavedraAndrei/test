@@ -42,56 +42,44 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-    <header class="site-header">
-        <div class="hero">
-            <div class="contenido-header">
-                <nav class="redes-sociales">
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                </nav>
-                <div class="informacion-evento">
-                    <div class="clearfix">
-                        <p class="fecha"><i class="fa fa-calendar" aria-hidden="true"></i> 01-02 Julio</p>
-                        <p class="ciudad"><i class="fa fa-map-marker" aria-hidden="true"></i> Huancayo, Perú</p>
-                    </div>
-
-                    <h1 class="nombre-sitio">App Congreso</h1>
-                    <p class="slogan">Los mejores congresos de <span>Ingeniería</span></p>
-                </div>
-                <!--.informacion-evento-->
-
-            </div>
-        </div>
-        <!--.hero-->
-    </header>
-
-    <div class="barra">
-        <div class="contenedor clearfix">
-            <div class="logo">
-                <a href="/">
-                    <img src="img/logo.svg" alt="logo del app congreso">
-                </a>
-            </div>
-
-            <div class="menu-movil">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-
-            <nav class="navegacion-principal clearfix">
-                <a href="{{route('catalogo')}}">Conferencia</a>
-                <a href="{{route('calendario')}}">Calendario</a>
-                <a href="{{route('invitados')}}">Invitados</a>
-                <a href="{{route('registrar')}}">Registrarse</a>
-                <a href="{{route('usuario.login')}}">Iniciar sesion</a>
+  <header class="site-header">
+    <div class="hero">
+        <div class="contenido-header">
+            <nav class="redes-sociales">
+                <a href="https://www.facebook.com/IEP-Uni%C3%B3n-Latino-Huancayo-100585138110712/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/user/ColegioUNION" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                </ul>
             </nav>
+            
+
         </div>
-        <!--.contenedor-->
     </div>
+    <!--.hero-->
+</header>
+
+<div class="barra">
+    <div class="contenedor clearfix">
+        <div class="logo">
+            <a class="quitar" href="{{route('prin.welcome')}}">
+                <p class="logo-pagprin">I.E.P. UNIÓN LATINO</p>
+            </a>
+        </div>
+
+        <div class="menu-movil">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="navegacion-principal clearfix">
+            <a href="{{route('calendario')}}">Calendario</a>
+            <a href="{{route('invitados')}}">Invitados</a>
+            <a href="{{route('registrar')}}">Registrarse</a>
+            <a href="{{route('usuario.login')}}">Iniciar sesion</a>
+        </nav>
+    </div>
+    <!--.contenedor-->
+</div>
     <!--.barra-->
 
     <section >

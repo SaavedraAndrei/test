@@ -102,15 +102,15 @@
 
         // Mapa
         if (document.getElementById("mapa")) {
-            var map = L.map("mapa").setView([-12.047736, -75.198755], 16);
+            var map = L.map("mapa").setView([-12.035971595103865, -75.19368449417814], 16);
 
             L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             ).addTo(map);
 
-            L.marker([-12.047736, -75.198755])
+            L.marker([-12.035971595103865, -75.19368449417814])
                 .addTo(map)
-                .bindPopup("Aplicación Congreso, 2021-07-01")
+                .bindPopup("Colegio Unión Latino, 2021-11-26")
                 .openPopup();
         }
     });
@@ -153,15 +153,15 @@
                         1200
                     );
                     $(".resumen-evento li:nth-child(2) p").animateNumber(
-                        { number: 15 },
+                        { number: 9 },
                         1200
                     );
                     $(".resumen-evento li:nth-child(3) p").animateNumber(
-                        { number: 3 },
+                        { number: 5 },
                         1500
                     );
                     $(".resumen-evento li:nth-child(4) p").animateNumber(
-                        { number: 9 },
+                        { number: 3 },
                         1500
                     );
                 },

@@ -46,33 +46,23 @@
         <div class="hero">
             <div class="contenido-header">
                 <nav class="redes-sociales">
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/IEP-Uni%C3%B3n-Latino-Huancayo-100585138110712/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/user/ColegioUNION" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    </ul>
                 </nav>
-                <div class="informacion-evento">
-                    <div class="clearfix">
-                        <p class="fecha"><i class="fa fa-calendar" aria-hidden="true"></i> 01-02 Julio</p>
-                        <p class="ciudad"><i class="fa fa-map-marker" aria-hidden="true"></i> Huancayo, Perú</p>
-                    </div>
-
-                    <h1 class="nombre-sitio">App Congreso</h1>
-                    <p class="slogan">Los mejores congresos de <span>Ingeniería</span></p>
-                </div>
-                <!--.informacion-evento-->
+                
 
             </div>
         </div>
         <!--.hero-->
     </header>
 
+
     <div class="barra">
         <div class="contenedor clearfix">
             <div class="logo">
-                <a href="/">
-                    <img src="img/logo.svg" alt="logo del app congreso">
+                <a class="quitar" href="{{route('prin.welcome')}}">
+                    <p class="logo-pagprin">I.E.P. UNIÓN LATINO</p>
                 </a>
             </div>
 
@@ -83,7 +73,6 @@
             </div>
 
             <nav class="navegacion-principal clearfix">
-                <a href="{{route('catalogo')}}">Conferencia</a>
                 <a href="{{route('calendario')}}">Calendario</a>
                 <a href="{{route('invitados')}}">Invitados</a>
                 <a href="{{route('registrar')}}">Registrarse</a>
@@ -96,14 +85,15 @@
 
     
     <section class="invitados contenedor seccion">
-        <h2>Ponentes del Congreso</h2>
+        <h2>Nuestros Ponentes</h2>
         <ul class="lista-invitados clearfix">
-            @foreach ($ponentes as $ponente)
+
+
             <li>
                 <div class="invitado">
-                    <a class="invitado-info" href="#invitado{{$ponente->id}}">
-                        <img src="/img/ponentes/invitado{{$ponente->id}}.jpg" alt="Imagen invitado">
-                        <p>{{$ponente->nombre}} {{$ponente->apellidoPaterno}} {{$ponente->apellidoMaterno}}</p>
+                    <a class="invitado-info" href="#invitado1">
+                        <img src="/img/ponentes/invitado1.jpg" alt="Imagen invitado">
+                        <p>Cesar Luis Lino Rosado</p>
                     </a>
                 </div>
                 <!-- END .invitado -->
@@ -111,15 +101,132 @@
 
             <div style="display:none;">
 
-                <div class="invitado-info" id="invitado{{$ponente->id}}">
-                    <h2>{{$ponente->nombre}} {{$ponente->apellidoPaterno}}</h2>
-                    <img src="img/invitado{{$ponente->id}}.jpg" alt="">
-                    <p>{{$ponente->email}}</p>
-                    <p>{{$ponente->descripcion}}</p>
+                <div class="invitado-info" id="invitado1">
+                    <h2>Cesar Luis Lino Rosado</h2>
+                    <img src="img/ponentes/invitado1.jpg" alt="">
+                    <p>- Director de la I.E.P. Andrés Bello</p>
+                    <p>- Magister en Educación</p>
+                    <p>- 15 Años de Experiencia en Educación</p>
                 </div>
 
             </div>
-            @endforeach
+
+
+            <li>
+                <div class="invitado">
+                    <a class="invitado-info" href="#invitado2">
+                        <img src="/img/ponentes/invitado2.jpg" alt="Imagen invitado">
+                        <p>Pedro Raul Rosado Nuñez</p>
+                    </a>
+                </div>
+                <!-- END .invitado -->
+            </li>
+
+            <div style="display:none;">
+
+                <div class="invitado-info" id="invitado2">
+                    <h2>Pedro Raul Rosado Nuñez</h2>
+                    <img src="img/ponentes/invitado2.jpg" alt="">
+                    <p>- Coordinador general de la I.E.P. Unión Latino</p>
+                    <p>- Magister en Educación</p>
+                    <p>- 20 Años de Experiencia en Educación</p>
+                </div>
+
+            </div>
+
+
+            <li>
+                <div class="invitado">
+                    <a class="invitado-info" href="#invitado3">
+                        <img src="/img/ponentes/invitado3.jpg" alt="Imagen invitado">
+                        <p>Juan Jose Sánchez Aliaga</p>
+                    </a>
+                </div>
+                <!-- END .invitado -->
+            </li>
+
+            <div style="display:none;">
+
+                <div class="invitado-info" id="invitado3">
+                    <h2>Juan Jose Sánchez Aliaga</h2>
+                    <img src="img/ponentes/invitado3.jpg" alt="">
+                    <p>- Docente de la I.E.P. Unión Latino</p>
+                    <p>- Magister en Educación</p>
+                    <p>- 10 Años de Experiencia en Educación</p>
+                </div>
+
+            </div>
+
+
+            <li>
+                <div class="invitado">
+                    <a class="invitado-info" href="#invitado4">
+                        <img src="/img/ponentes/invitado4.jpg" alt="Imagen invitado">
+                        <p>Freddy Antonio Poma Rivera</p>
+                    </a>
+                </div>
+                <!-- END .invitado -->
+            </li>
+
+            <div style="display:none;">
+
+                <div class="invitado-info" id="invitado4">
+                    <h2>Freddy Antonio Poma Rivera</h2>
+                    <img src="img/ponentes/invitado4.jpg" alt="">
+                    <p>- Docente de la I.E.P. Unión Latino</p>
+                    <p>- Magister en Educación</p>
+                    <p>- 13 Años de Experiencia en Educación</p>
+                </div>
+
+            </div>
+
+
+            <li>
+                <div class="invitado">
+                    <a class="invitado-info" href="#invitado5">
+                        <img src="/img/ponentes/invitado5.jpg" alt="Imagen invitado">
+                        <p>Harold Arnold García Montes</p>
+                    </a>
+                </div>
+                <!-- END .invitado -->
+            </li>
+
+            <div style="display:none;">
+
+                <div class="invitado-info" id="invitado5">
+                    <h2>Harold Arnold García Montes</h2>
+                    <img src="img/ponentes/invitado5.jpg" alt="">
+                    <p>- Docente de la I.E.P. Ingeniería</p>
+                    <p>- Magister en Educación y Experto en educación secundaria</p>
+                    <p>- 9 Años de Experiencia en Educación</p>
+                </div>
+
+            </div>
+
+
+            <li>
+                <div class="invitado">
+                    <a class="invitado-info" href="#invitado6">
+                        <img src="/img/ponentes/invitado6.jpg" alt="Imagen invitado">
+                        <p>Álvaro Daniel Solis Serazo</p>
+                    </a>
+                </div>
+                <!-- END .invitado -->
+            </li>
+
+            <div style="display:none;">
+
+                <div class="invitado-info" id="invitado6">
+                    <h2>Álvaro Daniel Solis Serazo</h2>
+                    <img src="img/ponentes/invitado6.jpg" alt="">
+                    <p>- Docente de la Universidad Peruana de los Andes</p>
+                    <p>- Ingeniero Industrial</p>
+                    <p>- 3 Años de Experiencia en Educación</p>
+                </div>
+
+            </div>
+
+
         </ul>
         <!-- END lista-invitados -->
     </section>

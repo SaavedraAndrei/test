@@ -58,23 +58,11 @@
         <div class="hero">
             <div class="contenido-header">
                 <nav class="redes-sociales">
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/IEP-Uni%C3%B3n-Latino-Huancayo-100585138110712/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/user/ColegioUNION" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
                     </ul>
                 </nav>
-                <div class="informacion-evento">
-                    <div class="clearfix">
-                        <p class="fecha"><i class="fa fa-calendar" aria-hidden="true"></i> 01-02 Julio</p>
-                        <p class="ciudad"><i class="fa fa-map-marker" aria-hidden="true"></i> Huancayo, Perú</p>
-                    </div>
-
-                    <h1 class="nombre-sitio">Xonference</h1>
-                    <p class="slogan">Los mejores congresos de <span>Ingeniería</span></p>
-                </div>
-                <!--.informacion-evento-->
+                
 
             </div>
         </div>
@@ -85,8 +73,8 @@
     <div class="barra">
         <div class="contenedor clearfix">
             <div class="logo">
-                <a href="{{route('prin.welcome')}}">
-                    <img src="img/logo.svg" alt="logo del app congreso">
+                <a class="quitar" href="{{route('prin.welcome')}}">
+                    <p class="logo-pagprin">I.E.P. UNIÓN LATINO</p>
                 </a>
             </div>
 
@@ -97,7 +85,6 @@
             </div>
 
             <nav class="navegacion-principal clearfix">
-                <a href="{{route('catalogo')}}">Conferencia</a>
                 <a href="{{route('calendario')}}">Calendario</a>
                 <a href="{{route('invitados')}}">Invitados</a>
                 <a href="{{route('registrar')}}">Registrarse</a>
@@ -110,10 +97,13 @@
 
 
     <section class="seccion contenedor">
-        <h2>La mejor conferencia de diseño web en español</h2>
+        <h2>Acerca del Colegio</h2>
+        <p class="descrip">
+            La Institución Educativa, fue Fundada el 30 de abril de 1919 con el nombre de “Escuela Industrial”, funcionando originalmente en una casa alquilada en el distrito de Miraflores, Lima.
+            Siendo la inspección de educación de la municipalidad de Lima quien ratifico su funcionamiento según resolución Directoral N° 93-02-05-1924 del 20 de marzo 1924 como escuela para enseñanza secundaria, en 1941.
+        </p>
         <p>
-            Praesent rutrum efficitur pharetra. Vivamus scelerisque pretium velit, id tempor turpis pulvinar et. Ut bibendum finibus massa non molestie. Curabitur urna metus, placerat gravida lacus ut, lacinia congue orci. Maecenas luctus mi at ex blandit vehicula.
-            Morbi porttitor tempus euismod.
+            
         </p>
     </section>
     <!--seccion-->
@@ -135,27 +125,27 @@
 
                     <nav class="menu-programa">
                         <a href="#seminario">
-                            <i class="fa fa-university" aria-hidden="true"></i> Seminario </a>
+                            <i class="fa fa-university" aria-hidden="true"></i> Conferencias </a>
                         <a href="#conferencias">
-                            <i class="fa fa-comment" aria-hidden="true"></i> Conferencias </a>
+                            <i class="fa fa-comment" aria-hidden="true"></i> Capacitaciones </a>
                         <a href="#talleres">
-                            <i class="fa fa-code" aria-hidden="true"></i> Talleres </a>
+                            <i class="fa fa-user-graduate" aria-hidden="true"></i> Charlas </a>
 
                     </nav>
 
 
                     <div id="seminario" class="info-curso ocultar clearfix">
                         <div class="detalle-evento">
-                            <h3>Diseño UI y UX para móviles</h3>
+                            <h3>El poder de los hábitos familiares en el talento y rendimiento</h3>
                             <p><i class="fa fa-clock-o" aria-hidden="true"></i> 10:00:00</p>
                             <p><i class="fa fa-calendar" aria-hidden="true"></i> 2016-12-09</p>
-                            <p><i class="fa fa-user" aria-hidden="true"></i> Susan Sanchez</p>
+                            <p><i class="fa fa-user" aria-hidden="true"></i>Cesar Luis Lino Rosado</p>
                         </div>
                         <div class="detalle-evento">
-                            <h3>Angular 5</h3>
+                            <h3>Educar en el uso saludable de las tecnologías</h3>
                             <p><i class="fa fa-clock-o" aria-hidden="true"></i> 19:00:00</p>
                             <p><i class="fa fa-calendar" aria-hidden="true"></i> 2016-12-10</p>
-                            <p><i class="fa fa-user" aria-hidden="true"></i> Juan Sanchez</p>
+                            <p><i class="fa fa-user" aria-hidden="true"></i>Pedro Raul Rosado Nuñez</p>
                         </div>
                         <a href="{{route('calendario')}}" class="button float-right">Ver todos</a>
                     </div>
@@ -163,16 +153,16 @@
 
                     <div id="conferencias" class="info-curso ocultar clearfix">
                         <div class="detalle-evento">
-                            <h3>Como ser freelancer</h3>
+                            <h3>¿Podemos cambiar la educación?</h3>
                             <p><i class="fa fa-clock-o" aria-hidden="true"></i> 10:00:00</p>
                             <p><i class="fa fa-calendar" aria-hidden="true"></i> 2016-12-09</p>
-                            <p><i class="fa fa-user" aria-hidden="true"></i> Susan Sanchez</p>
+                            <p><i class="fa fa-user" aria-hidden="true"></i>Juan Jose Sánchez Aliaga</p>
                         </div>
                         <div class="detalle-evento">
-                            <h3>Tecnologías del Futuro PHP</h3>
+                            <h3>Re-educar: el lugar del profesor</h3>
                             <p><i class="fa fa-clock-o" aria-hidden="true"></i> 05:00:00</p>
                             <p><i class="fa fa-calendar" aria-hidden="true"></i> 2016-12-09</p>
-                            <p><i class="fa fa-user" aria-hidden="true"></i> Juan Sanchez</p>
+                            <p><i class="fa fa-user" aria-hidden="true"></i>Freddy Antonio Poma Rivera</p>
                         </div>
                         <a href="{{route('catalogo')}}" class="button float-right">Ver todos</a>
                     </div>
@@ -180,16 +170,16 @@
 
                     <div id="talleres" class="info-curso ocultar clearfix">
                         <div class="detalle-evento">
-                            <h3>HTML5 y CSS3</h3>
+                            <h3>El rol de los maestros en la innovación educativa</h3>
                             <p><i class="fa fa-clock-o" aria-hidden="true"></i> 02:00:00</p>
                             <p><i class="fa fa-calendar" aria-hidden="true"></i> 2016-12-09</p>
-                            <p><i class="fa fa-user" aria-hidden="true"></i> Juan Sanchez</p>
+                            <p><i class="fa fa-user" aria-hidden="true"></i>Harold Arnold García Montes</p>
                         </div>
                         <div class="detalle-evento">
-                            <h3>WordPress</h3>
+                            <h3>Los nuevos retos de la educación</h3>
                             <p><i class="fa fa-clock-o" aria-hidden="true"></i> 19:00:00</p>
                             <p><i class="fa fa-calendar" aria-hidden="true"></i> 2016-12-09</p>
-                            <p><i class="fa fa-user" aria-hidden="true"></i> Harold Garcia</p>
+                            <p><i class="fa fa-user" aria-hidden="true"></i>Álvaro Daniel Solis Serazo</p>
                         </div>
                         <a href="{{route('catalogo')}}" class="button float-right">Ver todos</a>
                     </div>
@@ -213,7 +203,7 @@
                 <div class="invitado">
                     <a class="invitado-info" href="#invitado1">
                         <img src="/img/ponentes/invitado1.jpg" alt="Imagen invitado">
-                        <p>Rafael Bautista</p>
+                        <p>Cesar Luis Lino Rosado</p>
                     </a>
                 </div>
                 <!-- END .invitado -->
@@ -222,9 +212,11 @@
             <div style="display:none;">
 
                 <div class="invitado-info" id="invitado1">
-                    <h2>Rafael </h2>
+                    <h2>Cesar Luis Lino Rosado</h2>
                     <img src="img/ponentes/invitado1.jpg" alt="">
-                    <p>Praesent rutrum efficitur pharetra. Vivamus scelerisque pretium velit, id tempor turpis pulvinar et. Ut bibendum finibus massa non molestie.</p>
+                    <p>- Director de la I.E.P. Andrés Bello</p>
+                    <p>- Magister en Educación</p>
+                    <p>- 15 Años de Experiencia en Educación</p>
                 </div>
 
             </div>
@@ -234,7 +226,7 @@
                 <div class="invitado">
                     <a class="invitado-info" href="#invitado2">
                         <img src="/img/ponentes/invitado2.jpg" alt="Imagen invitado">
-                        <p>Shari Herrera</p>
+                        <p>Pedro Raul Rosado Nuñez</p>
                     </a>
                 </div>
                 <!-- END .invitado -->
@@ -243,9 +235,11 @@
             <div style="display:none;">
 
                 <div class="invitado-info" id="invitado2">
-                    <h2>Shari</h2>
+                    <h2>Pedro Raul Rosado Nuñez</h2>
                     <img src="img/ponentes/invitado2.jpg" alt="">
-                    <p>Curabitur urna metus, placerat gravida lacus ut, lacinia congue orci. Maecenas luctus mi at ex blandit vehicula. Morbi porttitor tempus euismod.</p>
+                    <p>- Coordinador general de la I.E.P. Unión Latino</p>
+                    <p>- Magister en Educación</p>
+                    <p>- 20 Años de Experiencia en Educación</p>
                 </div>
 
             </div>
@@ -255,7 +249,7 @@
                 <div class="invitado">
                     <a class="invitado-info" href="#invitado3">
                         <img src="/img/ponentes/invitado3.jpg" alt="Imagen invitado">
-                        <p>Juan Sanchez</p>
+                        <p>Juan Jose Sánchez Aliaga</p>
                     </a>
                 </div>
                 <!-- END .invitado -->
@@ -264,9 +258,11 @@
             <div style="display:none;">
 
                 <div class="invitado-info" id="invitado3">
-                    <h2>Juan</h2>
+                    <h2>Juan Jose Sánchez Aliaga</h2>
                     <img src="img/ponentes/invitado3.jpg" alt="">
-                    <p>placerat gravida lacus ut, lacinia congue orci. Maecenas luctus mi at ex blandit vehicula. Morbi porttitor tempus euismod.</p>
+                    <p>- Docente de la I.E.P. Unión Latino</p>
+                    <p>- Magister en Educación</p>
+                    <p>- 10 Años de Experiencia en Educación</p>
                 </div>
 
             </div>
@@ -276,7 +272,7 @@
                 <div class="invitado">
                     <a class="invitado-info" href="#invitado4">
                         <img src="/img/ponentes/invitado4.jpg" alt="Imagen invitado">
-                        <p>Susana Rivera</p>
+                        <p>Freddy Antonio Poma Rivera</p>
                     </a>
                 </div>
                 <!-- END .invitado -->
@@ -285,9 +281,11 @@
             <div style="display:none;">
 
                 <div class="invitado-info" id="invitado4">
-                    <h2>Susana</h2>
+                    <h2>Freddy Antonio Poma Rivera</h2>
                     <img src="img/ponentes/invitado4.jpg" alt="">
-                    <p>Praesent rutrum efficitur pharetra. Vivamus scelerisque pretium velit, id tempor turpis pulvinar et. Ut bibendum finibus</p>
+                    <p>- Docente de la I.E.P. Unión Latino</p>
+                    <p>- Magister en Educación</p>
+                    <p>- 13 Años de Experiencia en Educación</p>
                 </div>
 
             </div>
@@ -297,7 +295,7 @@
                 <div class="invitado">
                     <a class="invitado-info" href="#invitado5">
                         <img src="/img/ponentes/invitado5.jpg" alt="Imagen invitado">
-                        <p>Harold Garcia</p>
+                        <p>Harold Arnold García Montes</p>
                     </a>
                 </div>
                 <!-- END .invitado -->
@@ -306,9 +304,11 @@
             <div style="display:none;">
 
                 <div class="invitado-info" id="invitado5">
-                    <h2>Harold</h2>
+                    <h2>Harold Arnold García Montes</h2>
                     <img src="img/ponentes/invitado5.jpg" alt="">
-                    <p>placerat gravida lacus ut, lacinia congue orci. Maecenas luctus mi at ex blandit vehicula. Morbi porttitor tempus euismod.</p>
+                    <p>- Docente de la I.E.P. Ingeniería</p>
+                    <p>- Magister en Educación y Experto en educación secundaria</p>
+                    <p>- 9 Años de Experiencia en Educación</p>
                 </div>
 
             </div>
@@ -318,7 +318,7 @@
                 <div class="invitado">
                     <a class="invitado-info" href="#invitado6">
                         <img src="/img/ponentes/invitado6.jpg" alt="Imagen invitado">
-                        <p>Susan Sanchez</p>
+                        <p>Álvaro Daniel Solis Serazo</p>
                     </a>
                 </div>
                 <!-- END .invitado -->
@@ -327,10 +327,11 @@
             <div style="display:none;">
 
                 <div class="invitado-info" id="invitado6">
-                    <h2>Susan</h2>
+                    <h2>Álvaro Daniel Solis Serazo</h2>
                     <img src="img/ponentes/invitado6.jpg" alt="">
-                    <p>Praesent rutrum efficitur pharetra. Vivamus scelerisque pretium velit, id tempor turpis pulvinar et. Ut bibendum finibus massa non molestie. Curabitur urna metus, placerat gravida lacus ut, lacinia congue orci. Maecenas luctus mi at
-                        ex blandit vehicula. Morbi porttitor tempus euismod.</p>
+                    <p>- Docente de la Universidad Peruana de los Andes</p>
+                    <p>- Ingeniero Industrial</p>
+                    <p>- 3 Años de Experiencia en Educación</p>
                 </div>
 
             </div>
@@ -365,16 +366,15 @@
  
     <section class="precios seccion">
     <h2>Precios</h2>
-    @foreach ($congresos as $congreso)
         <div class="contenedor">
             <ul class="lista-precios clearfix">
                 <li>
                     <div class="tabla-precio">
-                        <h3>{{$congreso->nombre}}</h3>
-                        <p class="numero">S/. {{$congreso->precio}}</p>
+                        <h3>Pago General de las Conferencias</h3>
+                        <p class="numero">S/. 50</p>
                         <ul>
-                            <li>Inicio: {{$congreso->fechaInicio}}</li>
-                            <li>Fin: {{$congreso->fechaFin}}</li>
+                            <li>Inicio: 22-11-2021</li>
+                            <li>Fin: 26-11-2021</li>
                             <!-- <li>Todos los talleres</li> -->
                         </ul>
                         <a href="#" class="button">Comprar</a>
@@ -383,7 +383,6 @@
                 </li>
             </ul>
         </div>
-    @endforeach
     </section>
 
 
@@ -395,33 +394,43 @@
         <div class="testimoniales contenedor clearfix">
             <div class="testimonial">
                 <blockquote>
-                    <p>Sed mollis velit sit amet felis condimentum ultrices. Fusce vehicula ut sem vitae semper. Nullam blandit neque eu semper ullamcorper. Duis commodo quam in orci condimentum ultricies.
+                    <p>
+                        La plataforma permitió de una forma facil
+                        que las conferencias y capacitaciones brindadas 
+                        para el colegio estén organizadas correctamente lo cual
+                        favoreció con la participación de más docentes y alumnos.
                     <p>
                     <footer class="info-testimonial clearfix">
-                        <img src="img/testimonial.jpg" alt="imagen testimonial">
-                        <cite>Oswaldo Aponte Escobedo <span>Diseñador en @prisma</span></cite>
+                        <img src="img/testimonial1.jpg" alt="imagen testimonial">
+                        <cite>Clara Marisol Ramirez Prado<span>Docente del Colegio Unión Latino</span></cite>
                     </footer>
                 </blockquote>
             </div>
             <!--.testimonial-->
             <div class="testimonial">
                 <blockquote>
-                    <p>Sed mollis velit sit amet felis condimentum ultrices. Fusce vehicula ut sem vitae semper. Nullam blandit neque eu semper ullamcorper. Duis commodo quam in orci condimentum ultricies.
+                    <p>
+                        La página web contribuyó en la continuidad de la enseñanza 
+                        dentro del colegio. Lo cuál, promovió que los alumnos puedan obtener 
+                        un certificado digital por cada conferencia a la que hayan asistido.
                     <p>
                     <footer class="info-testimonial clearfix">
-                        <img src="img/testimonial.jpg" alt="imagen testimonial">
-                        <cite>Oswaldo Aponte Escobedo <span>Diseñador en @prisma</span></cite>
+                        <img src="img/testimonial2.jpg" alt="imagen testimonial">
+                        <cite>Oswaldo Escobedo Damian<span>Docente del Colegio Unión Latino</span></cite>
                     </footer>
                 </blockquote>
             </div>
             <!--.testimonial-->
             <div class="testimonial">
                 <blockquote>
-                    <p>Sed mollis velit sit amet felis condimentum ultrices. Fusce vehicula ut sem vitae semper. Nullam blandit neque eu semper ullamcorper. Duis commodo quam in orci condimentum ultricies.
+                    <p>
+                        La plataforma brinda una información estructurada
+                        que permite a los alumnos comprender los temas, horas y conocer a los ponentes 
+                        que van a brindar la ponencia.
                     <p>
                     <footer class="info-testimonial clearfix">
-                        <img src="img/testimonial.jpg" alt="imagen testimonial">
-                        <cite>Oswaldo Aponte Escobedo <span>Diseñador en @prisma</span></cite>
+                        <img src="img/testimonial3.jpg" alt="imagen testimonial">
+                        <cite>Juan Daniel Gamarra Canchucaja<span>Docente del Colegio Unión Latino</span></cite>
                     </footer>
                 </blockquote>
             </div>
@@ -432,18 +441,10 @@
 
 
 
-    <div class="newsletter parallax">
-        <div class="contenido contenedor">
-            <p> regístrate al newsletter:</p>
-            <h3>gdlwebcamp</h3>
-            <a href="#mc_embed_signup" class="boton_newsletter button transparente">Registro</a>
-        </div>
-        <!--.contenido-->
-    </div>
-    <!--.newsletter-->
+    
 
-    <section class="seccion">
-        <h2>Faltan</h2>
+    <section class="seccion cuentareg">
+        <h2>La próxima conferencia empieza en:</h2>
         <div class="cuenta-regresiva contenedor">
             <ul class="clearfix">
                 <li>
@@ -465,11 +466,11 @@
     <footer class="site-footer">
         <div class="contenedor clearfix">
             <div class="footer-informacion">
-                <h3>Sobre <span>gdlwebcamp</span></h3>
+                <h3>Sobre <span>la institución</span></h3>
                 <p>Praesent rutrum efficitur pharetra. Vivamus scelerisque pretium velit, id tempor turpis pulvinar et. Ut bibendum finibus massa non molestie. Curabitur urna metus, placerat gravida lacus ut, lacinia congue orci. Maecenas luctus mi at ex
                     blandit vehicula. Morbi porttitor tempus euismod.</p>
             </div>
-            <div class="ultimos-tweets">
+            <div class="ultimos proyectos">
                 <h3>Últimos <span>tweets</span></h3>
                 <a class="twitter-timeline" data-height="400" data-theme="light" data-link-color="#fe4918" Tweets by </a>
                     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -477,11 +478,9 @@
             <div class="menu">
                 <h3>Redes <span>sociales</span></h3>
                 <nav class="redes-sociales">
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/IEP-Uni%C3%B3n-Latino-Huancayo-100585138110712/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.youtube.com/user/ColegioUNION" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    </ul>
                 </nav>
             </div>
         </div>

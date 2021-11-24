@@ -120,7 +120,7 @@ html {
     box-sizing: inherit;
 }
 body {
-    background-color: #f2f2f2;
+    background-color: white;
     font-family: "Open Sans", sans-serif;
 }
 /** Globales **/
@@ -167,12 +167,12 @@ h2::after {
 }
 h3 {
     font-size: 1.8em;
-    color: #fe4918;
+    color: #DAC549;
     font-family: "PT Sans", sans-serif;
     margin: 0;
 }
 .button {
-    background-color: #fe4918;
+    background-color: #123360;
     padding: 10px 40px;
     color: #ffffff;
     text-transform: uppercase;
@@ -183,19 +183,19 @@ h3 {
     margin-top: 20px;
     display: inline-block;
     transition: all 0.3s ease;
-    border: 2px solid #fe4918;
+    border: 2px solid #123360;
 }
 .button.hollow,
 .button.hollow:hover {
     background-color: white;
-    color: #fe4918;
+    color: #123360;
 }
 .button.transparente {
     background-color: transparent;
     border: 2px solid #ffffff;
 }
 .button.transparente:hover {
-    border: 2px solid #fe4918;
+    border: 2px solid #123360;
 }
 
 ul {
@@ -204,7 +204,7 @@ ul {
     padding: 0;
 }
 .button:hover {
-    background-color: #e33000;
+    background-color: #123360;
 }
 .float-right {
     float: right;
@@ -261,10 +261,22 @@ h1.nombre-sitio span {
 /** Header **/
 
 div.hero {
-    background-image: url(/img/encabezado.jpg);
-    height: 600px;
-    background-position: top center;
+    background-image: url(/img/hola.png);
+    height: 650px !important;
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.logo-pagprin{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -326,10 +338,10 @@ p.fecha {
     float: left;
     font-size: 17px !important;
 }
-p.ciudad {
-    float: right;
-    text-align: right;
-    font-size: 17px !important;
+p.ciudad1 {
+    float: center;
+    text-align: center;
+    font-size: 24px !important;
 }
 
 .fa-calendar {
@@ -375,10 +387,11 @@ p.slogan span {
 }
 
 h1.nombre-sitio {
-    font-size: 50px;
+    font-size: 120px!important;
     text-transform: uppercase;
     font-family: "PT Sans", sans-serif;
     margin-bottom: 95px;
+    
 }
 @media only screen and (min-width: 768px) {
     h1.nombre-sitio {
@@ -391,7 +404,7 @@ h1.nombre-sitio {
 
 /** Barra **/
 div.barra {
-    background-color: #353535;
+    background-color: #123360;
     padding: 20px 0;
 }
 .fixed {
@@ -405,6 +418,15 @@ div.logo {
     width: 80%;
     float: left;
 }
+
+div.log.a{
+    text-decoration: none;
+}
+
+.quitar{
+    text-decoration: none;
+}
+
 div.logo img {
     width: 100%;
 }
@@ -432,11 +454,11 @@ nav.navegacion-principal a {
     clear: both;
 }
 nav.navegacion-principal a:hover {
-    background-color: #fe4918;
+    background-color: #DAC549;
 }
 nav.navegacion-principal a:last-child {
-    border: 2px solid #fe4918;
-    color: #fe4918;
+    border: 2px solid #DAC549;
+    color: #DAC549;
 }
 nav.navegacion-principal a:last-child:hover {
     color: #ffffff;
@@ -531,7 +553,7 @@ nav.menu-programa a {
     font-size: 1.2em;
     position: relative;
     padding-bottom: 10px;
-    border-bottom: 1px solid #fe4918;
+    border-bottom: 1px solid #123360;
 }
 nav.menu-programa a.activo::after {
     position: absolute;
@@ -555,7 +577,7 @@ nav.menu-programa a.activo::after {
 }
 nav.menu-programa a i,
 div.detalle-evento p i {
-    color: #fe4918;
+    color: #123360;
     font-size: 1.6em;
     margin-right: 10px;
 }
@@ -615,7 +637,7 @@ div.invitado p {
     width: 100%;
     text-align: left;
     font-family: "Oswald", sans-serif;
-    color: #fe4918;
+    color: #DAC549;
     text-transform: uppercase;
     -webkit-transition: all 0.5s ease-in-out;
 }
@@ -640,7 +662,7 @@ div.contador {
     height: auto;
 }
 div.contador::before {
-    background-image: url(/img/bg-resumen.jpg);
+    background-image: url(/img/union.jpeg);
     content: "";
 }
 
@@ -663,11 +685,16 @@ ul.resumen-evento li {
     }
 }
 p.numero {
-    color: #fe4918;
+    color: #DAC549;
     font-size: 4em;
     display: block;
     margin: 0 0 10px 0;
     font-family: "Oswald", sans-serif;
+}
+
+.descrip{
+    line-height: 27px;
+    text-align: justify !important;
 }
 /** Tabla de Precios **/
 ul.lista-precios > li {
@@ -759,7 +786,7 @@ blockquote p::before {
     margin: 0;
     padding: 0;
     line-height: 1;
-    color: #fe4918;
+    color: #123360;
 }
 footer.info-testimonial {
     padding: 0;
@@ -773,7 +800,7 @@ footer.info-testimonial img {
 }
 footer.info-testimonial cite {
     text-align: left;
-    color: #fe4918;
+    color: #123360;
     text-transform: uppercase;
     font-size: 12px;
     padding-top: 20px;
@@ -819,6 +846,16 @@ div.cuenta-regresiva ul li {
     font-family: "Oswald", sans-serif;
     font-size: 1.6rem;
     text-align: center;
+    color: white;
+}
+
+.cuentareg{
+    background-color: #123360;
+    padding-bottom: 70px;
+}
+
+.cuentareg h2{
+    color: white;
 }
 
 @media only screen and (min-width: 768px) {
@@ -831,7 +868,7 @@ div.cuenta-regresiva ul li {
 /** Footer **/
 
 footer {
-    background-color: #353535;
+    background-color: #0e2443;
     padding-top: 40px;
     margin-top: 0;
 }
@@ -854,7 +891,7 @@ footer h3 {
     margin-bottom: 20px;
 }
 footer h3 span {
-    color: #fe4918;
+    color: #DAC549;
 }
 footer .ultimos-tweets li {
     margin-bottom: 10px;
@@ -873,7 +910,7 @@ p.copyright {
 /*** INTERNAS **/
 /* Conferencia **/
 .navegacion-principal .activo {
-    border-bottom: 2px solid #fe4918;
+    border-bottom: 2px solid #DAC549;
 }
 div.galeria a {
     display: inline-block;
@@ -1039,7 +1076,7 @@ input[disabled].button {
 
 /** Calendario **/
 div.calendario h3 {
-    background-color: #fe4918;
+    background-color: #123360;
     clear: both;
     color: white;
     text-align: center;
@@ -1068,7 +1105,7 @@ div.dia:hover {
     -webkit-transform: scale(1.1);
 }
 div.dia p.titulo {
-    color: #fe4918;
+    color: #DAC549;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -1076,7 +1113,7 @@ div.dia p {
     font-size: 1em;
 }
 div.dia i {
-    color: #fe4918;
+    color: #123360;
     font-size: 1.6em;
 }
 /* Colorbox **/
@@ -1183,6 +1220,11 @@ table.registrados tr:nth-child(4n-1) {
 
 .hidden {
     display: none !important;
+}
+
+.regis-logo{
+    text-decoration: none !important;
+    color: white;
 }
 
 /*
