@@ -87,13 +87,13 @@
     <section class="invitados contenedor seccion">
         <h2>Nuestros Ponentes</h2>
         <ul class="lista-invitados clearfix">
-
-
+        
+            @foreach ($ponentes as $ponente)
             <li>
                 <div class="invitado">
-                    <a class="invitado-info" href="#invitado1">
-                        <img src="/img/ponentes/invitado1.jpg" alt="Imagen invitado">
-                        <p>Cesar Luis Lino Rosado</p>
+                    <a class="invitado-info" href="#invitado{{$ponente->id}}">
+                        <img src="/img/ponentes/invitado{{$ponente->id}}.jpg" alt="Imagen invitado">
+                        <p>{{$ponente->nombre}} {{$ponente->apellidoPaterno}} {{$ponente->apellidoMaterno}}</p>
                     </a>
                 </div>
                 <!-- END .invitado -->
@@ -101,130 +101,17 @@
 
             <div style="display:none;">
 
-                <div class="invitado-info" id="invitado1">
-                    <h2>Cesar Luis Lino Rosado</h2>
-                    <img src="img/ponentes/invitado1.jpg" alt="">
-                    <p>- Director de la I.E.P. Andrés Bello</p>
-                    <p>- Magister en Educación</p>
-                    <p>- 15 Años de Experiencia en Educación</p>
+                <div class="invitado-info" id="invitado{{$ponente->id}}">
+                    <h2>{{$ponente->nombre}} {{$ponente->apellidoPaterno}}</h2>
+                    <img src="img/invitado{{$ponente->id}}.jpg" alt="">
+                    <p>{{$ponente->email}}</p>
+                    <p>{{$ponente->descripcion}}</p>
                 </div>
 
             </div>
+            @endforeach
 
-
-            <li>
-                <div class="invitado">
-                    <a class="invitado-info" href="#invitado2">
-                        <img src="/img/ponentes/invitado2.jpg" alt="Imagen invitado">
-                        <p>Pedro Raul Rosado Nuñez</p>
-                    </a>
-                </div>
-                <!-- END .invitado -->
-            </li>
-
-            <div style="display:none;">
-
-                <div class="invitado-info" id="invitado2">
-                    <h2>Pedro Raul Rosado Nuñez</h2>
-                    <img src="img/ponentes/invitado2.jpg" alt="">
-                    <p>- Coordinador general de la I.E.P. Unión Latino</p>
-                    <p>- Magister en Educación</p>
-                    <p>- 20 Años de Experiencia en Educación</p>
-                </div>
-
-            </div>
-
-
-            <li>
-                <div class="invitado">
-                    <a class="invitado-info" href="#invitado3">
-                        <img src="/img/ponentes/invitado3.jpg" alt="Imagen invitado">
-                        <p>Juan Jose Sánchez Aliaga</p>
-                    </a>
-                </div>
-                <!-- END .invitado -->
-            </li>
-
-            <div style="display:none;">
-
-                <div class="invitado-info" id="invitado3">
-                    <h2>Juan Jose Sánchez Aliaga</h2>
-                    <img src="img/ponentes/invitado3.jpg" alt="">
-                    <p>- Docente de la I.E.P. Unión Latino</p>
-                    <p>- Magister en Educación</p>
-                    <p>- 10 Años de Experiencia en Educación</p>
-                </div>
-
-            </div>
-
-
-            <li>
-                <div class="invitado">
-                    <a class="invitado-info" href="#invitado4">
-                        <img src="/img/ponentes/invitado4.jpg" alt="Imagen invitado">
-                        <p>Freddy Antonio Poma Rivera</p>
-                    </a>
-                </div>
-                <!-- END .invitado -->
-            </li>
-
-            <div style="display:none;">
-
-                <div class="invitado-info" id="invitado4">
-                    <h2>Freddy Antonio Poma Rivera</h2>
-                    <img src="img/ponentes/invitado4.jpg" alt="">
-                    <p>- Docente de la I.E.P. Unión Latino</p>
-                    <p>- Magister en Educación</p>
-                    <p>- 13 Años de Experiencia en Educación</p>
-                </div>
-
-            </div>
-
-
-            <li>
-                <div class="invitado">
-                    <a class="invitado-info" href="#invitado5">
-                        <img src="/img/ponentes/invitado5.jpg" alt="Imagen invitado">
-                        <p>Harold Arnold García Montes</p>
-                    </a>
-                </div>
-                <!-- END .invitado -->
-            </li>
-
-            <div style="display:none;">
-
-                <div class="invitado-info" id="invitado5">
-                    <h2>Harold Arnold García Montes</h2>
-                    <img src="img/ponentes/invitado5.jpg" alt="">
-                    <p>- Docente de la I.E.P. Ingeniería</p>
-                    <p>- Magister en Educación y Experto en educación secundaria</p>
-                    <p>- 9 Años de Experiencia en Educación</p>
-                </div>
-
-            </div>
-
-
-            <li>
-                <div class="invitado">
-                    <a class="invitado-info" href="#invitado6">
-                        <img src="/img/ponentes/invitado6.jpg" alt="Imagen invitado">
-                        <p>Álvaro Daniel Solis Serazo</p>
-                    </a>
-                </div>
-                <!-- END .invitado -->
-            </li>
-
-            <div style="display:none;">
-
-                <div class="invitado-info" id="invitado6">
-                    <h2>Álvaro Daniel Solis Serazo</h2>
-                    <img src="img/ponentes/invitado6.jpg" alt="">
-                    <p>- Docente de la Universidad Peruana de los Andes</p>
-                    <p>- Ingeniero Industrial</p>
-                    <p>- 3 Años de Experiencia en Educación</p>
-                </div>
-
-            </div>
+            
 
 
         </ul>
