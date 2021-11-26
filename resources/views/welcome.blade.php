@@ -373,11 +373,10 @@
                         <h3>Pago General de las Conferencias</h3>
                         <p class="numero">S/. 50</p>
                         <ul>
-                            <li>Inicio: 22-11-2021</li>
-                            <li>Fin: 26-11-2021</li>
+                            <li>Inicio: 02-12-2021</li>
+                            <li>Fin: 11-12-2021</li>
                             <!-- <li>Todos los talleres</li> -->
                         </ul>
-                        <a href="#" class="button">Comprar</a>
                         <!-- <a href="{{url('/paypal/pay')}}" class="button">Comprar</a> -->
                     </div>
                 </li>
