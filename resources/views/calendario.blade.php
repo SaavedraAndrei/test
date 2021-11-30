@@ -104,9 +104,9 @@
                 // LINUX
                 setlocale(LC_TIME, 'es_ES.UTF-8');
                 // Windows
-                setlocale(LC_TIME, 'spanish');
+                setlocale(LC_ALL, 'spanish');
 
-                echo utf8_encode(strftime("%A, %d de %B del %Y", strtotime($dia)));  ?>
+                echo utf8_encode(strftime("%d-%m-%Y", strtotime($dia)));  ?>
             </h3>
                 @foreach ($lista_eventos as $evento)
                     <div class="dia">
