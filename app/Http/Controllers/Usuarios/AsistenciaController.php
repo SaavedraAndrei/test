@@ -157,4 +157,29 @@ class AsistenciaController extends Controller
 
         return redirect()->route('usuario.asistencia');
     }
+
+    public function ReporteAsistencia(){
+
+        $asistencias = Asistencia::from('asistencias as a')
+        ->select(
+            'a.id',
+            'a.fecha_hora',
+            'a.asistio', 
+            'a.dni', 
+            'a.id_conferencia',
+            'e.nombre as nombre_evento',
+            'u.nombres',
+            'u.apellidoPaterno',
+            'u.apellidoMaterno',
+            'u.email'
+        )
+        ->join('eventos as e', 'e.id', '=', 'a.id_conferencia')
+        ->join('usuarios as u', 'u.dni', '=', 'a.dni')
+        ->get();
+        
+        return Inertia::render('Administrativa/reportes_asistencias',
+    [
+        'asistencias'=>$asistencias,
+    ]);
+    }
 }

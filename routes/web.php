@@ -86,7 +86,7 @@ Route::POST('/administrativa/categorias_guardar', [MantenimientosController::cla
 Route::GET('/administrativa/recursos', [ArchivoController::class, 'principal'])->name('administrativa.recursos');
 Route::POST('/administrativa/recursos_verificar', [ArchivoController::class, 'verificarRecurso'])->name('administrativa.verificar_recursos');
 Route::POST('/administrativa/recursos_guardar', [ArchivoController::class, 'guardarRecurso'])->name('administrativa.guardar_recurso');
-
+Route::GET('/administrativa/reporte_asistencia', [AsistenciaController::class, 'ReporteAsistencia'])->name('administrativa.reporte_asistencia');
 //----------------------------RUTAS PARA EL CERTIFICADO---------------------------------------
 Route::GET('/certificado', [CertificadoController::class, 'index'])->name('certificado');
 Route::GET('/download', [CertificadoController::class, 'download'])->name('download');
